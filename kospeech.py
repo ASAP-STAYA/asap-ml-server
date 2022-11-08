@@ -9,4 +9,5 @@ class Recogintion(Resource):
 
     @recognition_api.response(200, 'Success')
     def get(self):
+
         return 'Voice Recognition!'
